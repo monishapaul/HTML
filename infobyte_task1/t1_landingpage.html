@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body and mind fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&display=swap" rel="stylesheet">
+<style>
+    body {
+        .aclonica-regular {
+            font-family: "Aclonica", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        background-color: rgb(3, 0, 14);
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/back.jpg');
+        background-repeat:no-repeat;
+        height: 100%;
+        background-size: cover;
+        color: white;
+        height: 1000px;
+    }
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .center {
+
+        display: block;
+        margin: 12px auto;
+        width: 45%;
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .nav li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .nav li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .nav li a:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        color: rgb(94, 61, 0);
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 50px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+    main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+    .btn {
+        .aclonica-regular {
+            font-family: "Aclonica", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding:4px 14px;
+        border-radius:10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(58, 16, 0);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 100px;
+        padding: 75px;
+        width: 40%;
+        border-radius: 28px;
+    }
+
+    .joinbtn {
+
+        margin: 0px 9px;
+        background-color: rgb(19, 8, 8);
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .section2 h1 {
+        text-align: center;
+        text-decoration:underline ;
+        font-size: 35px;
+    }
+
+    .section2 p {
+        text-align: center;
+        margin: 20px 100px;
+        font-size: 20px;
+    }
+
+    .column {
+        float: left;
+        width: 30%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column h3{
+        text-decoration: underline;
+    }
+    .formgrp input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width:25%;
+        border-radius: 28px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .contact h2{
+        text-align: center;
+        text-decoration: wavy;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    .contact button{
+        display: block;
+        margin: auto;
+        width: 20%;
+        margin: 20px auto;
+    }
+    .column:nth-child(1){ 
+   border-right: solid 1px #ccc;
+}
+.column:nth-child(3) {
+   border-left: solid 1px #ccc;
+}
+
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/logo.jpg" alt="" class="center">
+            <div>Body and mind fitness</div>
+        </div>
+        <div class="center">
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Sign in</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <main>
+
+        <div class="container">
+            <h4>Empower Your Body, Enrich Your Mind with the best gym in the town</h4>
+            <h1>"Elevating Your Fitness Journey with Strength and Determination."</h2>
+                <button class="joinbtn">Get Started</button>
+            </div>
+            <hr>
+            <section class="section2">
+                <h1>Services</h1>
+                <p>Elevate your well-being with our gym's holistic approach to fitness. Our services go beyond physical workouts, offering personalized programs that nurture both body and mind. From mindful training and nutrition counseling to mental health workshops, we're dedicated to empowering you on your journey to a healthier and happier lifestyle.</p>
+                <div class="row">
+                    <div class="column">
+                        <h3>Mindful Fitness Programs:</h3>
+                        <p>Tailored workouts integrating mental focus, stress reduction, and mindfulness practices for a holistic approach to physical well-being.</p>
+                    </div>
+                    <div class="column">
+                        <h3>Cognitive Exercise Classes:</h3>
+                        <p>Specialized classes combining physical activity with cognitive challenges to enhance mental acuity and coordination</p>
+                    </div>
+                    <div class="column">
+                        <h3>Wellness Coaching:</h3>
+                        <p>Individualized coaching services addressing mental well-being, stress management, and personal development for a balanced mind-body experience.</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <div class="contact">
+                <h2>Any queries</h2>
+                <form action="any.php">
+                    <div class="formgrp">
+                        <input type="text" name="" placeholder="Enter your Name">
+                    </div>
+                    <div class="formgrp">
+                        <input type="text" name="" placeholder="Enter your Age">
+                    </div>
+                    <div class="formgrp">
+                        <input type="text" name="" placeholder="Enter your Gender">
+                    </div>
+                    <div class="formgrp">
+                        <input type="text" name="" placeholder="Enter your Phone number">
+                    </div>
+                    <div class="formgrp">
+                        <input type="text" name="" placeholder="Any diet restrictions,please mention">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </main>
+    </body>
+
+</html>

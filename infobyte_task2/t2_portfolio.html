@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monisha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 28, 53);
+            color: white;
+        }
+        nav{
+            display:flex ;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color:rgb(0, 35, 54);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color:rgb(14, 1, 63);
+            font-size: 1.04rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .startSect{
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+        .startSect> div{
+            width: 30%;
+        }
+        .leftsect{
+            margin: 80px 0;
+            font-size: 3rem;
+        }
+        .rightsect img{
+            width: 80%;
+                        
+        }
+        .purple{
+            color: rgb(3, 187, 187);
+        }
+        .nextosect{
+            max-width:80vw ;
+            margin: auto;
+            height: 80vh;
+        }
+        .nextosect h1{
+            font-size: 1.9rem;
+            
+        }
+        .nextosect .box{
+            background-color: white;
+            width:75vw;
+            height:2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .nextosect .vertical{
+            height: 93px;
+            width:1px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 130px;
+        }
+        .ver-title{
+            position: relative;
+            top:100px;
+            width: 150px;
+        }
+        .ver-desc{
+            position: relative;
+            top:100px;
+            width: 150px;
+            font-size: 11px;
+            color: gray;
+        }
+        .img{
+            width:30px;
+            position: relative;
+            top: -32px;
+            left:-9px;
+            
+        }
+        form{
+            background-color: rgb(0, 30, 48);
+            height: 400px;
+            justify-content: space-around;
+        }
+        
+        .contact h2{
+        text-align: center;
+        text-decoration: wavy;
+        font-size: 30px;
+       }
+    .contact button{
+        display: block;
+        margin: auto;
+        width: 20%;
+        margin: 20px auto;
+    }
+    
+    .formgrp input{
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .btn{
+        font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            border-radius: 2px;
+            margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding:4px 14px;
+        border-radius:10px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: rgb(1, 19, 83);
+    }
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="left">All about Monisha</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me..</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header> 
+   <main>
+    <section class="startSect">
+        <div class="leftsect">
+            Hello, I am <span class="purple">Monisha</span>
+            <div>I am</div>
+            <span id="element"></span>
+            
+        </div>
+        
+        <div class="rightsect">
+            <img src="pic.png" alt="">
+            <button class="btn">Download CV</button>
+            <button class="btn">Email Resume</button>
+        </div>
+    </section>
+    <hr>
+    <section class="nextosect">
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <img src="py.png" alt="" class="img">
+                <div class="ver-title">
+                    Python Programmer
+                </div>
+                <div class="ver-desc">
+                    Engaged in basic and advanced python project with Tkinter GUI for user interface design.
+                    Oversaw the entire project life cycle, contributing to the
+                    creation of a robust application.
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="db.png" alt="" class="img">
+                <div class="ver-title">
+                    Relational Database manager
+                </div>
+                <div class="ver-desc">
+                    Engaged in a real-time project focused on student
+                    management, employing MySQL for backend database
+                    operation
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="ana.png" alt="" class="img">
+                <div class="ver-title">
+                    Data Analyst and machine learning Engineer
+                </div>
+                <div class="ver-desc">
+                    Contributed to a real-time machine learning and data
+                    science model, involving the application of advanced
+                    algorithms and statistical analysis.
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="wb.png" alt="" class="img">
+                <div class="ver-title">
+                    Web Developer and Design
+                </div>
+                <div class="ver-desc">
+                    Engaged in robust projects with HTML,CSS,Javascript.
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <div class="contact">
+        <h2>Any queries</h2>
+        <form action="any.php">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</main>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Python Programmer', 'Relational Database manager','Data Analyst','Web Developer and Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
